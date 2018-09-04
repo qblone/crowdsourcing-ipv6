@@ -53,9 +53,7 @@ One of the critical requirements for this setup is to configure an authoritative
 
 In our topology, nameserver1.example.com will act as the main server and will reply to IPv4 requests, it will delegate IPv6 queries to v6ns1.v6ns.example.com.
 
-We define several subdomains to capture network configurations of machines. You can read more details about these tests here.
-
-!TODO: Missing link for 'here' with more infos on tests!
+We define several subdomains to capture network configurations of machines. You can read more details about these tests in the *Tests Run* tab by opening *Technical Info* on the [Test IPv6 website](http://test-ipv6.com/index.html.en_US)].
 
 Our zone file for server1 is as follows (please replace the domains and IP addresses according to your configuration):
 
